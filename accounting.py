@@ -5,6 +5,7 @@ DORKY_LINE_LENGTH = 80
 print("*" * DORKY_LINE_LENGTH)
 f = open("orders-by-type.txt")
 melon_tallies = {"Musk":0, "Hybrid":0, "Watermelon":0, "Winter": 0}
+print(melon_tallies)
 
 for l in f:
     data = l.split("|")
